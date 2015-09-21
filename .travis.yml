@@ -5,7 +5,7 @@ python:
   - "3.2"
   - "3.3"
 # command to install dependencies
-script: test_rrd
+script: python test_rrd.py
 branches:
   only:
     - master
